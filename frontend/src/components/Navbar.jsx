@@ -18,7 +18,9 @@ function Navbar() {
 
       </ul>
 
-      <button className="nav-btn">Get Started</button>
+      <Link to="/chat" className="nav-btn">
+  Get Started
+</Link>
     </nav>
   );
 }
